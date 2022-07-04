@@ -157,6 +157,19 @@ demo中自带的例子 跑起来以后会有新增和批量新增两个按钮，
   ]
 }```
 
-我发现excel解析后是这么个结构,所以我在上面的amis json里新加了一个body字段，希望能通过${excel}来拿到数组，但跑起来发现数组还是被包在一个奇怪的excelpath下面，我就有点束手无策
+一方面我发现excel解析后是这么个结构,
+另一方面 在嗅探了demo自带的上传按钮触发的调用请求的参数以后
+https://user-images.githubusercontent.com/2363295/177199609-6ffe9d67-5228-4869-b149-9c98d4f4e4dc.mp4
+
+所以我在上面的amis json里新加了一个body字段，希望能通过${excel}来拿到数组，但跑起来发现数组还是被包在一个奇怪的excelpath下面，我就有点束手无策
 ![image](https://user-images.githubusercontent.com/2363295/177198668-f29db488-6bef-47bb-a9af-1b69795aa748.png)
+
+
+
+
+
+
+
+
+
 
